@@ -9,7 +9,7 @@ public class FunctionName {
         int a = sc.nextInt();
         int b = sc.nextInt();
 
-        System.out.println(FunctionName.sum(a, b));
+        System.out.println(sum(a, b));
 
         sc.close();
     }
