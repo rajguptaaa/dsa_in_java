@@ -1,0 +1,35 @@
+# Compiled Java files
+*.class
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.swp
+*.bak
+
+# Build folders
+bin/
+build/
+out/
+target/
+
+# VS Code settings
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Java project metadata
+.project
+.classpath
+.settings/
+
+# Maven / Gradle (future safe)
+.gradle/
+.mvn/
+
+# Dependency folders
+node_modules/
