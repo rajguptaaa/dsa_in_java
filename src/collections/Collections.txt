@@ -1,0 +1,65 @@
+ArrayList<Integer> list = new ArrayList<>();
+| Work           | Java             | C++              |
+| -------------- | ---------------- | ---------------- |
+| Add            | `list.add(x)`    | `v.push_back(x)` |
+| Get element    | `list.get(i)`    | `v[i]`           |
+| Change element | `list.set(i,x)`  | `v[i]=x`         |
+| Size           | `list.size()`    | `v.size()`       |
+| Remove         | `list.remove(i)` | `v.erase()`      |
+| Check empty    | `list.isEmpty()` | `v.empty()`      |
+
+
+HashMap<Integer,Integer> mp = new HashMap<>();
+| Work      | Java                | C++           |
+| --------- | ------------------- | ------------- |
+| Insert    | `mp.put(k,v)`       | `mp[k]=v`     |
+| Get value | `mp.get(k)`         | `mp[k]`       |
+| Check key | `mp.containsKey(k)` | `mp.count(k)` |
+| Remove    | `mp.remove(k)`      | `mp.erase(k)` |
+| Size      | `mp.size()`         | `mp.size()`   |
+
+
+HashSet<Integer> set = new HashSet<>();
+| Work         | Java              | C++             |
+| ------------ | ----------------- | --------------- |
+| Insert       | `set.add(x)`      | `set.insert(x)` |
+| Check exists | `set.contains(x)` | `set.count(x)`  |
+| Remove       | `set.remove(x)`   | `set.erase(x)`  |
+| Size         | `set.size()`      | `set.size()`    |
+
+
+Queue<Integer> q = new LinkedList<>();
+| Work   | Java          | C++         |
+| ------ | ------------- | ----------- |
+| Insert | `q.add(x)`    | `q.push(x)` |
+| Remove | `q.poll()`    | `q.pop()`   |
+| Front  | `q.peek()`    | `q.front()` |
+| Empty  | `q.isEmpty()` | `q.empty()` |
+
+
+Stack<Integer> st = new Stack<>();
+| Work  | Java           | C++          |
+| ----- | -------------- | ------------ |
+| Push  | `st.push(x)`   | `st.push(x)` |
+| Pop   | `st.pop()`     | `st.pop()`   |
+| Top   | `st.peek()`    | `st.top()`   |
+| Empty | `st.isEmpty()` | `st.empty()` |
+
+
+Arrays
+| Work   | Java                   | C++                           |
+| ------ | ---------------------- | ----------------------------- |
+| Length | `arr.length`           | `arr.size()`                  |
+| Sort   | `Arrays.sort(arr)`     | `sort(arr.begin(),arr.end())` |
+| Print  | `Arrays.toString(arr)` | loop                          |
+
+
+Trees
+Node root = new Node(10);
+Queue<Node> q = new LinkedList<>();
+Stack<Node> st = new Stack<>();
+| C++           | Java                                 |
+| ------------- | ------------------------------------ |
+| `Node* left`  | `Node left`                          |
+| `NULL`        | `null`                               |
+| Manual memory | Automatic memory (Garbage Collector) |
